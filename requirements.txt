@@ -1,0 +1,31 @@
+# LangChain 核心库
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+
+# LangGraph（可选，用于完整版工作流）
+langgraph>=0.0.20
+
+# 向量数据库
+faiss-cpu>=1.7.4
+
+# 文档处理
+pypdf>=3.17.0
+
+# 嵌入模型
+sentence-transformers>=2.2.2
+
+# 数据验证
+pydantic>=2.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 其他依赖
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# 开发依赖（可选）
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
